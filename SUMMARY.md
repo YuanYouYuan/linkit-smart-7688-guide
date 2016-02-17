@@ -1,7 +1,7 @@
 # Summary
 
 * [認識7688](README.md)
-* [7688介紹](1-7688-intromd.md)
+* [7688介紹](1-7688_intromd.md)
    * [硬體](1.1-hardware.md)
    * [軟體](1.2-software.md)
    * [周邊](1.3-shield.md)
