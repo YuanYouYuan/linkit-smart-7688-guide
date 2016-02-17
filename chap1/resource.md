@@ -1,6 +1,6 @@
 # 參考資源
 
-* [聯發科7688官方網站](https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/whatis_7688/index.gs://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/whatis_7688/index.gsp())
+1. [聯發科7688官方網站](https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/whatis_7688/index.gs://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/whatis_7688/index.gsp)
 * [Makee.io 7688影像串流](http://oranwind.org/-linkit-smart-7688-7688-chuan-jie-webcam/)
 * [Makee.io FPV Mini 4WD](https://makeeio.gitbooks.io/linkit-smart-mini4wd/content/)
 * [EZMK MTK文](http://www.ezmk.org/#!MTK文13-LinkIt-Smart-7688小案-WiFi工程車/c1nni/565e80fd0cf2c000e92b1148)
