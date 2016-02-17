@@ -1,5 +1,5 @@
 # Summary
-
+======
 * [認識7688](README.md)
 * [7688介紹](chap1-7688-intro.md)
    * [硬體](1.1-hardware.md)
