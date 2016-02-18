@@ -6,3 +6,4 @@
 * [7688初體驗](chap2/README.md)
 	* [登入7688](chap2/login.md)
 	* [無線網路設定](chap2/wifi_config.md)
+* [MCS 控制機械手臂](chap3/README.md)
