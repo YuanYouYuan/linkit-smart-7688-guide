@@ -9,5 +9,5 @@
    * [登入7688](chap2/login.md)
    * [無線網路設定](chap2/wifi_config.md)
 * [MCS 控制機械手臂](chap3/README.md)
-   * 機械手臂
+   * [機械手臂](chap3/3.1-robotic_arm.md)
 
