@@ -18,7 +18,7 @@
     * 在console中輸入：_nano_，開啟nano編輯器，
       輸入以下的程式碼。
 
-``` 
+```python
     import mraa
     import time
     import requests

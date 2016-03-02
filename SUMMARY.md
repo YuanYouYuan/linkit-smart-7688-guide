@@ -10,5 +10,5 @@
     * [無線網路設定](chap2/wifi_config.md)
 * [雲端控制機械手臂](chap3/README.md)
     * [MCS設定](chap3/mcs_mearm_setting.md)
+    * [MCS測試](chap3/mcs_test.md)
     * [7688手臂程式設計](chap3/7688_mearm.md)
-
