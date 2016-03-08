@@ -8,9 +8,9 @@
 import requests
 
 device_id = "輸入您的Device Id"
-device_key = "術入您的Device Key"
+device_key = "輸入您的Device Key"
 
-url = "http://api.meditek.com/mcs/v2/devices/" + device_id
+url = "http://api.mediatek.com/mcs/v2/devices/" + device_id
 url = "/datachannels/" + data_channel + "/datapoints.csv"
 
 def game_pad():
