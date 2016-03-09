@@ -1,8 +1,9 @@
 import requests
 
-device_id = "DZF34Y80"
-device_key = "B0df4jYfaxQ0BwK9"
-data_channel = "gamepad"
+device_id = "DZF34Y80"          # 改成您的device id
+device_key = "B0df4jYfaxQ0BwK9" # 改成您的device key
+data_channel = "gamepad"        # 改成您的data channel id
+
 url = "http://api.mediatek.com/mcs/v2/devices/" + device_id
 url += "/datachannels/" + data_channel + "/datapoints.csv"
 

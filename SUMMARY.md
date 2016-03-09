@@ -9,6 +9,8 @@
     * [登入7688](chap2/login.md)
     * [無線網路設定](chap2/wifi_config.md)
 * [雲端控制機械手臂](chap3/README.md)
+    * [伺服馬達介紹](chap3/servo.md)
+    * [MCS控制夾爪](chap3/mcs_gripper.md)
     * [MCS設定](chap3/mcs_mearm_setting.md)
     * [MCS測試](chap3/mcs_test.md)
     * [7688手臂程式設計](chap3/7688_mearm.md)
