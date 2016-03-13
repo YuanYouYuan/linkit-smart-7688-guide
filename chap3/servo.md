@@ -5,7 +5,7 @@
   並與外圈的永久磁鐵產生力的作用而旋轉。
 
   ![motor](pic/motor.jpg)
-  <center>來源：維基百科</center>
+  <center><i>來源：維基百科</i></center>
 
 
 * 但是一般馬達只有方向及轉速上可以調控，
@@ -14,11 +14,11 @@
   於是在馬達上安裝編碼器及控制迴路的伺服馬達就出現了。
 
   ![sg90](pic/sg90.jpg)
-  <center>常見的小型塑膠齒伺服馬達TowerPro SG90</center>
+  <center><i>常見的小型塑膠齒伺服馬達TowerPro SG90</i></center>
 
 
 * 一般來說伺服馬達會有三條線，分別有電源線，地線，及訊號線，
-  控制上通常會用PWM訊號來控制馬達轉到的角度，
+  控制上通常會用__PWM訊號__來控制馬達轉到的角度，
   PWM（Pluse Width Modulation），中文：脈衝寬度調變。
   是一種用數位訊號來代替類比訊號的方式，
   透過固定脈波週期，然後改變佔空比來對應到不同的類比訊號大小。
@@ -32,7 +32,34 @@
 
 * 接下來我們就來實際測試看看，
   請先按下圖完成機械手臂夾爪的伺服馬達的電路，
-  並在7688上執行以下的範例程式。
+  並在您的電腦上開啟Arduino IDE，
+  並下載本範例程式到7688上執行。
 
   ![one_servo](pic/one_servo.png)
+  
 
+* 7688_pwm_test.ino
+```c
+#include <Servo.h>
+Servo s;
+void setup()
+{
+    s.attach(3);
+}
+
+void loop()
+{
+    for(i = 30; i <= 150; i++)
+    {
+        s.write(i);
+        delay(20);
+    }
+    for(i = 150; i >= 30; i--)
+    {
+        s.write(i);
+        delay(20);
+    }
+}
+```
+
+* 是不是能夠成功看到機械手臂的夾爪開合開合呢？

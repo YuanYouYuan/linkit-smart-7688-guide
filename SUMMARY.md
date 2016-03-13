@@ -13,4 +13,5 @@
     * [MCS控制夾爪](chap3/mcs_gripper.md)
     * [MCS設定](chap3/mcs_mearm_setting.md)
     * [MCS測試](chap3/mcs_test.md)
+    * [7688 Duo 手臂程式設計](chap3/7688_Duo_mearm.md)
     * [7688手臂程式設計](chap3/7688_mearm.md)

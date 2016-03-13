@@ -8,9 +8,9 @@
 本範例將使用的是一款開源機械手臂meArm。
 
 
-程式語言的部份主要使用的是Python，
+程式語言的部份主要使用的是Python + Arduino，
 如果您喜歡使用其他的語言，
-例如：Arduino， Node.js，
+例如：Node.js + Arduino，
 也請參考本章末的附錄，
 裡面將會有詳細的解說。
 

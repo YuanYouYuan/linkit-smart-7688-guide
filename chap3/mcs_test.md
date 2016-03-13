@@ -35,6 +35,5 @@ while True:
             print "press A"
         elif command[0] == "B"
             print "press B"
-
 ```
 
