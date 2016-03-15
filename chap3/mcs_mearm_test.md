@@ -1,8 +1,8 @@
-# MCS測試
+# MCS手臂控制測試
 
 接下來我們將來試試看7688能否正確與MCS雲端平台溝通。
+請在7688上執行以下的Python程式。
 
-* 以Python作為程式語言
 
 ```python
 import requests
