@@ -36,7 +36,8 @@
   並下載本範例程式到7688上執行。
 
   ![one_servo](pic/one_servo.png)
-  
+
+
 
 * 7688_pwm_test.ino
 ```c
