@@ -51,10 +51,12 @@
 
 
 
-* __PART II__: mcs_gripper.ino 
+* __PART II__: 
   請打開您的Arduino IDE下載以下程式碼到7688中，
   執行手臂夾爪的控制程式。
 
+
+mcs_gripper.ino 
 ```c
 #include <Servo.h>
 
@@ -77,11 +79,20 @@ void loop()
             s.write(30);
     }
 }
-```
-* __PART III__: mcs_gripper.py 
-  接下來請登入7688，並執行以下的程式碼，
-  接收雲端網站的控制訊號。
 
+```
+
+
+* __PART III__: 
+  接下來請登入7688，下載requests函式庫，
+  完成後請在7688上執行以下的程式碼，
+  接收雲端網站的控制訊號。
+    * 下載Python網路溝通用的函式庫：_requests_，
+      請在console輸入_pip install requests_。
+
+    ![requests](pic/requests.png)
+
+執行以下手臂夾爪測試程式碼，請輸入：python mcs_gripper.py 
 
 ```python
 

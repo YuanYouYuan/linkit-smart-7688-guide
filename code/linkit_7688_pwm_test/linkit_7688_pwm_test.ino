@@ -7,12 +7,12 @@ void setup()
 
 void loop()
 {
-    for(i = 30; i <= 150; i++)  //20每毫秒正轉一度
+    for(int i = 30; i <= 150; i++)  //20每毫秒正轉一度
     {
         s.write(i);
         delay(20);
     }
-    for(i = 150; i >= 30; i--)  //20每毫秒反轉一度
+    for(int i = 150; i >= 30; i--)  //20每毫秒反轉一度
     {
         s.write(i);
         delay(20);
